@@ -105,9 +105,9 @@
 
     console.log(m.info);
     if(m.info != null)
-      var $template = $('<li class="bot"><div class="text">' + '<input type="text">'  + '</div></li>');
+      var $template = $(m.text + '<a href="' + m.info + '"></a>');
     else
-      var $template = $('<li class="bot"><div class="text">'+ m.text +'</div></li>');
+      var $template = $('<a href="' + m.text + '"></a>');
 
     toggleLoader("show", container);
 
@@ -122,7 +122,8 @@
     else
       container.find('.typing-indicator').remove();
   }
-
+  
+		
   function generateMessageHTML(container, messages, m, delay) {
 
     // create template if text is not null
