@@ -25,7 +25,7 @@
     "text": "Please enter ticket number.",
     "messageType": "Question",
     "nextMessageId": "",
-	"info": "Ticket No.:",
+	"infoId": "Ticket No.:",
     "option1_nextMessageId": 11
   },
   {
@@ -34,19 +34,7 @@
     "messageType": "Text",
 	"html": "Ticket No.:",
     "nextMessageId": ""
-  },
-  {
-    "id": 12,
-    "text": "Ang galing mo kerker",
-    "messageType": "Text",
-    "nextMessageId": ""
-  },
-  {
-    "id": 13,
-    "text": "Ang galing mo kerker2",
-    "messageType": "Text",
-    "nextMessageId": ""
-  },
+  }
   {
 	"id": 4,
     "text": "Please select the corresponding category of your query.",
@@ -91,7 +79,8 @@
   },
     { 
 	"id": 7,
-    "text": "Kindly click /link here/ to the official Buzz site of CWT Policies. Once again, this is Dave. Thank you for contacting us. Have a great day ahead!",
+    "text": "Kindly click the link below to the official Buzz site of CWT Policies. Once again, this is Dave. Thank you for contacting us. Have a great day ahead!",
+	"info": "https://mycwt.jiveon.com/",
     "messageType": "Question",
     "nextMessageId": ""
 }]
